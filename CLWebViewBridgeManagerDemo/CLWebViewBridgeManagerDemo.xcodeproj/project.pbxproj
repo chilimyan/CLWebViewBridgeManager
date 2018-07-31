@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1875FAAA21103D520001E0B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FAA921103D520001E0B3 /* AppDelegate.m */; };
+		1875FAAD21103D520001E0B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FAAC21103D520001E0B3 /* ViewController.m */; };
+		1875FAB021103D520001E0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAAE21103D520001E0B3 /* Main.storyboard */; };
+		1875FAB221103D530001E0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAB121103D530001E0B3 /* Assets.xcassets */; };
+		1875FAB521103D530001E0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAB321103D530001E0B3 /* LaunchScreen.storyboard */; };
+		1875FAB821103D540001E0B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FAB721103D540001E0B3 /* main.m */; };
+		1875FAC221103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FAC121103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.m */; };
+		1875FACD21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FACC21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.m */; };
+		1875FADF21103D850001E0B3 /* CLWebViewBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FADD21103D850001E0B3 /* CLWebViewBridgeManager.m */; };
+		1875FAE021103D850001E0B3 /* CLWebBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875FADE21103D850001E0B3 /* CLWebBridge.m */; };
+		1875FAE421103EFF0001E0B3 /* webviewTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAE121103EFE0001E0B3 /* webviewTest.js */; };
+		1875FAE521103EFF0001E0B3 /* webviewTest.css in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAE221103EFE0001E0B3 /* webviewTest.css */; };
+		1875FAE621103EFF0001E0B3 /* webviewTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 1875FAE321103EFF0001E0B3 /* webviewTest.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1875FABE21103D540001E0B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1875FA9D21103D520001E0B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1875FAA421103D520001E0B3;
+			remoteInfo = CLWebViewBridgeManagerDemo;
+		};
+		1875FAC921103D540001E0B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1875FA9D21103D520001E0B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1875FAA421103D520001E0B3;
+			remoteInfo = CLWebViewBridgeManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1875FAA521103D520001E0B3 /* CLWebViewBridgeManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLWebViewBridgeManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1875FAA821103D520001E0B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1875FAA921103D520001E0B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1875FAAB21103D520001E0B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1875FAAC21103D520001E0B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1875FAAF21103D520001E0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1875FAB121103D530001E0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1875FAB421103D530001E0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1875FAB621103D540001E0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875FAB721103D540001E0B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1875FABD21103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLWebViewBridgeManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1875FAC121103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLWebViewBridgeManagerDemoTests.m; sourceTree = "<group>"; };
+		1875FAC321103D540001E0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875FAC821103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLWebViewBridgeManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1875FACC21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLWebViewBridgeManagerDemoUITests.m; sourceTree = "<group>"; };
+		1875FACE21103D540001E0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875FADB21103D850001E0B3 /* CLWebBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWebBridge.h; sourceTree = "<group>"; };
+		1875FADC21103D850001E0B3 /* CLWebViewBridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWebViewBridgeManager.h; sourceTree = "<group>"; };
+		1875FADD21103D850001E0B3 /* CLWebViewBridgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWebViewBridgeManager.m; sourceTree = "<group>"; };
+		1875FADE21103D850001E0B3 /* CLWebBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWebBridge.m; sourceTree = "<group>"; };
+		1875FAE121103EFE0001E0B3 /* webviewTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webviewTest.js; sourceTree = "<group>"; };
+		1875FAE221103EFE0001E0B3 /* webviewTest.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = webviewTest.css; sourceTree = "<group>"; };
+		1875FAE321103EFF0001E0B3 /* webviewTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webviewTest.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1875FAA221103D520001E0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FABA21103D540001E0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FAC521103D540001E0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1875FA9C21103D520001E0B3 = {
+			isa = PBXGroup;
+			children = (
+				1875FAA721103D520001E0B3 /* CLWebViewBridgeManagerDemo */,
+				1875FAC021103D540001E0B3 /* CLWebViewBridgeManagerDemoTests */,
+				1875FACB21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests */,
+				1875FAA621103D520001E0B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1875FAA621103D520001E0B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1875FAA521103D520001E0B3 /* CLWebViewBridgeManagerDemo.app */,
+				1875FABD21103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.xctest */,
+				1875FAC821103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1875FAA721103D520001E0B3 /* CLWebViewBridgeManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1875FADA21103D850001E0B3 /* CLWebViewBridgeManager */,
+				1875FAA821103D520001E0B3 /* AppDelegate.h */,
+				1875FAA921103D520001E0B3 /* AppDelegate.m */,
+				1875FAE221103EFE0001E0B3 /* webviewTest.css */,
+				1875FAE321103EFF0001E0B3 /* webviewTest.html */,
+				1875FAE121103EFE0001E0B3 /* webviewTest.js */,
+				1875FAAB21103D520001E0B3 /* ViewController.h */,
+				1875FAAC21103D520001E0B3 /* ViewController.m */,
+				1875FAAE21103D520001E0B3 /* Main.storyboard */,
+				1875FAB121103D530001E0B3 /* Assets.xcassets */,
+				1875FAB321103D530001E0B3 /* LaunchScreen.storyboard */,
+				1875FAB621103D540001E0B3 /* Info.plist */,
+				1875FAB721103D540001E0B3 /* main.m */,
+			);
+			path = CLWebViewBridgeManagerDemo;
+			sourceTree = "<group>";
+		};
+		1875FAC021103D540001E0B3 /* CLWebViewBridgeManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1875FAC121103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.m */,
+				1875FAC321103D540001E0B3 /* Info.plist */,
+			);
+			path = CLWebViewBridgeManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		1875FACB21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1875FACC21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.m */,
+				1875FACE21103D540001E0B3 /* Info.plist */,
+			);
+			path = CLWebViewBridgeManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		1875FADA21103D850001E0B3 /* CLWebViewBridgeManager */ = {
+			isa = PBXGroup;
+			children = (
+				1875FADC21103D850001E0B3 /* CLWebViewBridgeManager.h */,
+				1875FADD21103D850001E0B3 /* CLWebViewBridgeManager.m */,
+				1875FADB21103D850001E0B3 /* CLWebBridge.h */,
+				1875FADE21103D850001E0B3 /* CLWebBridge.m */,
+			);
+			name = CLWebViewBridgeManager;
+			path = ../../CLWebViewBridgeManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1875FAA421103D520001E0B3 /* CLWebViewBridgeManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1875FAD121103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemo" */;
+			buildPhases = (
+				1875FAA121103D520001E0B3 /* Sources */,
+				1875FAA221103D520001E0B3 /* Frameworks */,
+				1875FAA321103D520001E0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLWebViewBridgeManagerDemo;
+			productName = CLWebViewBridgeManagerDemo;
+			productReference = 1875FAA521103D520001E0B3 /* CLWebViewBridgeManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1875FABC21103D540001E0B3 /* CLWebViewBridgeManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1875FAD421103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemoTests" */;
+			buildPhases = (
+				1875FAB921103D540001E0B3 /* Sources */,
+				1875FABA21103D540001E0B3 /* Frameworks */,
+				1875FABB21103D540001E0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1875FABF21103D540001E0B3 /* PBXTargetDependency */,
+			);
+			name = CLWebViewBridgeManagerDemoTests;
+			productName = CLWebViewBridgeManagerDemoTests;
+			productReference = 1875FABD21103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1875FAC721103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1875FAD721103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemoUITests" */;
+			buildPhases = (
+				1875FAC421103D540001E0B3 /* Sources */,
+				1875FAC521103D540001E0B3 /* Frameworks */,
+				1875FAC621103D540001E0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1875FACA21103D540001E0B3 /* PBXTargetDependency */,
+			);
+			name = CLWebViewBridgeManagerDemoUITests;
+			productName = CLWebViewBridgeManagerDemoUITests;
+			productReference = 1875FAC821103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1875FA9D21103D520001E0B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chilim;
+				TargetAttributes = {
+					1875FAA421103D520001E0B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1875FABC21103D540001E0B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1875FAA421103D520001E0B3;
+					};
+					1875FAC721103D540001E0B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1875FAA421103D520001E0B3;
+					};
+				};
+			};
+			buildConfigurationList = 1875FAA021103D520001E0B3 /* Build configuration list for PBXProject "CLWebViewBridgeManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1875FA9C21103D520001E0B3;
+			productRefGroup = 1875FAA621103D520001E0B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1875FAA421103D520001E0B3 /* CLWebViewBridgeManagerDemo */,
+				1875FABC21103D540001E0B3 /* CLWebViewBridgeManagerDemoTests */,
+				1875FAC721103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1875FAA321103D520001E0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875FAB521103D530001E0B3 /* LaunchScreen.storyboard in Resources */,
+				1875FAB221103D530001E0B3 /* Assets.xcassets in Resources */,
+				1875FAE421103EFF0001E0B3 /* webviewTest.js in Resources */,
+				1875FAE521103EFF0001E0B3 /* webviewTest.css in Resources */,
+				1875FAE621103EFF0001E0B3 /* webviewTest.html in Resources */,
+				1875FAB021103D520001E0B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FABB21103D540001E0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FAC621103D540001E0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1875FAA121103D520001E0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875FAAD21103D520001E0B3 /* ViewController.m in Sources */,
+				1875FAB821103D540001E0B3 /* main.m in Sources */,
+				1875FAAA21103D520001E0B3 /* AppDelegate.m in Sources */,
+				1875FAE021103D850001E0B3 /* CLWebBridge.m in Sources */,
+				1875FADF21103D850001E0B3 /* CLWebViewBridgeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FAB921103D540001E0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875FAC221103D540001E0B3 /* CLWebViewBridgeManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875FAC421103D540001E0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875FACD21103D540001E0B3 /* CLWebViewBridgeManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1875FABF21103D540001E0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1875FAA421103D520001E0B3 /* CLWebViewBridgeManagerDemo */;
+			targetProxy = 1875FABE21103D540001E0B3 /* PBXContainerItemProxy */;
+		};
+		1875FACA21103D540001E0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1875FAA421103D520001E0B3 /* CLWebViewBridgeManagerDemo */;
+			targetProxy = 1875FAC921103D540001E0B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1875FAAE21103D520001E0B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1875FAAF21103D520001E0B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1875FAB321103D530001E0B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1875FAB421103D530001E0B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1875FACF21103D540001E0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1875FAD021103D540001E0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1875FAD221103D540001E0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1875FAD321103D540001E0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1875FAD521103D540001E0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLWebViewBridgeManagerDemo.app/CLWebViewBridgeManagerDemo";
+			};
+			name = Debug;
+		};
+		1875FAD621103D540001E0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLWebViewBridgeManagerDemo.app/CLWebViewBridgeManagerDemo";
+			};
+			name = Release;
+		};
+		1875FAD821103D540001E0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLWebViewBridgeManagerDemo;
+			};
+			name = Debug;
+		};
+		1875FAD921103D540001E0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V3DFWE4TZ;
+				INFOPLIST_FILE = CLWebViewBridgeManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsea.CLWebViewBridgeManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLWebViewBridgeManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1875FAA021103D520001E0B3 /* Build configuration list for PBXProject "CLWebViewBridgeManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875FACF21103D540001E0B3 /* Debug */,
+				1875FAD021103D540001E0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1875FAD121103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875FAD221103D540001E0B3 /* Debug */,
+				1875FAD321103D540001E0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1875FAD421103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875FAD521103D540001E0B3 /* Debug */,
+				1875FAD621103D540001E0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1875FAD721103D540001E0B3 /* Build configuration list for PBXNativeTarget "CLWebViewBridgeManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875FAD821103D540001E0B3 /* Debug */,
+				1875FAD921103D540001E0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1875FA9D21103D520001E0B3 /* Project object */;
+}
