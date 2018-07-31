@@ -1,2 +1,4 @@
 # CLWebViewBridgeManager
-一个简单轻量的webview和h5的桥接组建
+一个简单的webview和h5的桥接组建
+
+
