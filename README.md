@@ -36,4 +36,8 @@ __weak __typeof(&*self)weakSelf = self;
 目前只支持WKWebView，没有对UIWebView进行适配。
 还有不好的地方欢迎大家指正，渴望与大家一起学习，一起提高。
 
+博客：https://chilimyan.github.io
+简书：https://www.jianshu.com/u/a34dc804b875
+QQ： 417949725
+
 
